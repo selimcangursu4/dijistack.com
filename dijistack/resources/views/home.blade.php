@@ -1,0 +1,1049 @@
+@extends('partials.master')
+@section('main')
+    <header class="hero-style1 position-relative o-hidden">
+        <div class="bg-img" data-background="assets/imgs/pattern-bg.webp">
+        </div>
+        <div class="container position-relative z-index-2">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="mb-80px md-mb50">
+                        <h1 class="fs-75">Web Tasarım, Yönetim Paneli, Mobil Uygulama, Yapay Zeka Çözümleri </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-end md-order-1">
+                        <div class="tags md-mb50">
+                            <a>Arayüz & Deneyim Tasarımı</a>
+                            <a>Web & Mobil Yazılım</a>
+                            <a>SEO & Performans Pazarlaması</a>
+                            <a>Dijital Büyüme Stratejileri</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center md-order-2">
+                        <div class="circle-button">
+                            <div class="rotate-circle fs-24 text-uppercase">
+                                <svg class="textcircle" viewBox="0 0 500 500">
+                                    <defs>
+                                        <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
+                                        </path>
+                                    </defs>
+                                    <text>
+                                        <textPath xlink:href="#textcircle" textLength="900">
+                                            Web - Mobil - Yapay Zeka - Yönetim Paneli -</textPath>
+                                    </text>
+                                </svg>
+                            </div>
+                            <div class="icon text-align-center">
+                                <span class="w-80px"><img src="assets/imgs/shape1.png" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 md-order-1 md-mb80">
+                        <p class="fs-18">İşinizi büyütmeye odaklanan; ölçeklenebilir web ve mobil uygulamalar, gelişmiş
+                            yönetim panelleri ve yapay zeka destekli dijital ürünler geliştiriyoruz. Güçlü altyapılar,
+                            modern teknolojiler ve kullanıcı odaklı çözümlerle markanıza sürdürülebilir dijital değer
+                            katıyoruz.</p>
+                        <a href="page-about.html" class="butn-arrow mt-30px">
+                            <span class="text-uppercase fs-14 fw-500">Birlikte Çalışalım!</span>
+                            <span class="arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hr-sec p-0">
+        <div class="hr-container row">
+            <div class="item-panel col-12 col-md-6 md-mb30">
+                <div class="fit-img">
+                    <img src="assets/imgs/works/w11.jpg" alt="">
+                    <div class="cont">
+                        <div class="tags fs-14 text-uppercase">
+                            <span>Design</span>
+                            <span>Marketing</span>
+                        </div>
+                        <a href="project-details.html" class="butn-arrow butn-blur">
+                            <span class="text-uppercase fs-16 fw-500">Stellantis</span>
+                            <span class="arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-panel col-12 col-md-6 md-mb30">
+                <div class="fit-img">
+                    <img src="assets/imgs/works/w1.png" alt="">
+                    <div class="cont">
+                        <div class="tags fs-14 text-uppercase">
+                            <span>Design</span>
+                            <span>Bransing</span>
+                        </div>
+                        <a href="project-details.html" class="butn-arrow butn-blur">
+                            <span class="text-uppercase fs-16 fw-500">Stellar Tech</span>
+                            <span class="arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-panel col-12 col-md-6 md-mb30">
+                <div class="fit-img">
+                    <img src="assets/imgs/works/w3.jpg" alt="">
+                    <div class="cont">
+                        <div class="tags fs-14 text-uppercase">
+                            <span>Design</span>
+                            <span>Marketing</span>
+                        </div>
+                        <a href="project-details.html" class="butn-arrow butn-blur">
+                            <span class="text-uppercase fs-16 fw-500">Salesforce AI</span>
+                            <span class="arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-panel col-12 col-md-6 md-mb30">
+                <div class="fit-img">
+                    <img src="assets/imgs/works/w4.jpg" alt="">
+                    <div class="cont">
+                        <div class="tags fs-14 text-uppercase">
+                            <span>3D</span>
+                            <span>Motion</span>
+                        </div>
+                        <a href="project-details.html" class="butn-arrow butn-blur">
+                            <span class="text-uppercase fs-16 fw-500">Atelier Lapsa</span>
+                            <span class="arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item-panel col-12 col-md-6 position-relative">
+                <div class="fit-img">
+                    <video loop muted autoplay class="bgvid">
+                        <source src="assets/imgs/works/w4.mp4" type="video/mp4">
+                    </video>
+                    <div class="cont">
+                        <div class="tags fs-14 text-uppercase">
+                            <span>Design</span>
+                            <span>Marketing</span>
+                        </div>
+                        <a href="project-details.html" class="butn-arrow butn-blur">
+                            <span class="text-uppercase fs-16 fw-500">Centrica</span>
+                            <span class="arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="see-more main-colorbg border-radius-30px d-flex align-items-center justify-content-center text-align-center sm-hide">
+                    <div>
+                        <h2 class="text-uppercase text-dark"><a href="portfolio-carousel.html">{ More
+                                Projects }</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="position-relative" data-ui-animate data-delay="0.4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="text-align-center sec-head">
+                        <h6 class="text-uppercase mb-30px">Dijistack Hakkında</h6>
+                        <h2 class="fw-400">Markanızın hikâyesini dijital dünyada güçlü bir şekilde anlatan, dikkat çekici
+                            ve sürdürülebilir kimlikler oluşturuyoruz. Web, mobil ve dijital ürünlerde; yalnızca estetik
+                            değil, performans ve kullanıcı deneyimi odaklı çözümler geliştiriyoruz. Dijistack’te tasarım, iş
+                            hedeflerinize hizmet eder.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-top-right w-300px opacity-1">
+            <img src="assets/imgs/mshap1.png" alt="" data-speed="0.9" data-lag="0">
+        </div>
+    </section>
+    <section class="serv-style4 pt-0">
+        <div class="container">
+            <div class="sec-head bord mb-80px" data-ui-animate data-delay="0.2">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h6 class="text-uppercase">Hizmetlerimiz</h6>
+                    </div>
+                    <div class="col-lg-5 col-md-8">
+                        <div>
+                            <h2 class="fs-60 text-uppercase"><span class="opacity-7 d-inline">Uzmanlık</span>
+                                <br> Alanlarımız
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 sm-hide d-flex justify-content-end">
+                        <div>
+                            <a href="page-pricing.html" class="butn-more d-flex align-items-center">
+                                <span class="text-uppercase fs-14 fw-500">Devamını Göster</span>
+                                <span class="arrow-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 md-mb30" data-ui-animate data-delay="0.4" data-delay="0.4" data-direction="left">
+                    <div class="item v-align-between">
+                        <div class="img">
+                            <img src="assets/imgs/serv/bs1.png" alt="">
+                        </div>
+                        <div>
+                            <h4 class="mb-30px">Özel Yazılım & Yönetim Panel Geliştirme</h4>
+                            <p>İş süreçlerinize özel olarak tasarlanan yazılım çözümleri ve yönetim panelleri
+                                geliştiriyoruz.
+                                Kullanıcı dostu arayüzler, güçlü altyapılar ve ölçeklenebilir mimarilerle operasyonlarınızı
+                                tek bir merkezden verimli şekilde yönetmenizi sağlıyoruz..</p>
+                        </div>
+                        <div>
+                            <a href="page-services.html" class="butn-more d-flex align-items-center">
+                                <span class="text-uppercase fs-14 fw-500">Detaylı Bilgi</span>
+                                <span class="arrow-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 md-mb30" data-ui-animate data-delay="0.4" data-delay="0.8">
+                    <div class="item v-align-between bg-light">
+                        <div class="img">
+                            <img src="assets/imgs/serv/bs2.png" alt="">
+                        </div>
+                        <div>
+                            <h4 class="mb-30px">Kurumsal Website Tasarımı</h4>
+                            <p> Markanızı dijital dünyada en iyi şekilde temsil eden, modern ve kullanıcı odaklı kurumsal
+                                web siteleri tasarlıyoruz. Hızlı, mobil uyumlu ve SEO altyapısı güçlü çözümlerle
+                                markanızın güvenilirliğini ve dijital görünürlüğünü artırıyoruz.</p>
+                        </div>
+                        <div>
+                            <a href="page-services.html" class="butn-more d-flex align-items-center">
+                                <span class="text-uppercase fs-14 fw-500">Detaylı Bilgi</span>
+                                <span class="arrow-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-ui-animate data-delay="0.4" data-delay="0.6" data-direction="right">
+                    <div class="item v-align-between">
+                        <div class="img">
+                            <img src="assets/imgs/serv/bs3.png" alt="">
+                        </div>
+                        <div>
+                            <h4 class="mb-30px">Yapay Zeka & Otomasyon Entegrasyonu</h4>
+                            <p> İş süreçlerinizi hızlandıran, operasyonel verimliliği artıran ve karar alma mekanizmalarını
+                                güçlendiren yapay zeka ve otomasyon çözümleri geliştiriyoruz.</p>
+                        </div>
+                        <div>
+                            <a href="page-services.html" class="butn-more d-flex align-items-center">
+                                <span class="text-uppercase fs-14 fw-500">Detaylı Bilgi</span>
+                                <span class="arrow-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main-marq xlrg with-shad">
+        <div class="slide-har st1 opacity-5">
+            <div class="box d-flex align-items-center">
+                <div class="item">
+                    <h4>Dijistack</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>UI / UX Tasarım</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Kurumsal Web Siteleri</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Dijital Deneyim</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Web Tasarım</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box d-flex align-items-center">
+                <div class="item">
+                    <h4>Profesyonel Tasarım</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Mobil Uygulama</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Web Yazılım</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Yapay Zeka Entegrasyon</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="team-intro style2 pb-0">
+        <div class="container">
+            <div class="sec-head bord mb-80px" data-ui-animate data-delay="0.4">
+                <div class="row align-items-center mb-50px">
+                    <div class="col-lg-6 md-mb50">
+                        <h6 class="text-uppercase mb-50px">Ekibimiz</h6>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-end">
+                        <div>
+                            <h2 class="fs-60 text-uppercase mb-15px"><span class="opacity-7 d-inline">Ekibimizle</span>
+                                Tanışın
+                            </h2>
+                            <p> Dijistack ekibi; tasarım, yazılım ve dijital strateji alanlarında
+                                uzmanlaşmış profesyonellerden oluşur. Her projede farklı bakış
+                                açılarını bir araya getirerek, estetik kadar işlevselliği de
+                                ön planda tutan dijital çözümler üretiyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-ui-animate data-delay="0.4">
+                <div class="col-lg-4 col-md-6 sm-mb30">
+                    <div class="item sub-bg p-40px border-radius-15px o-hidden v-align-between">
+                        <div class="mb-80px w-100px">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
+                                fill="currentColor">
+                                <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
+                                                                                  c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
+                                                                                  c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
+                                                                                  C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
+                                                                                  c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
+                                                                                  s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
+                                                                                  c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
+                                                                                  "></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-uppercase opacity-7 mb-15px">Ekip Kültürümüz</span>
+                            <h4 class="fs-30">Sadece güzel görünen değil, sonuç üreten ve markalara
+                                gerçek değer katan dijital deneyimler tasarlıyoruz..</h4>
+                        </div>
+                        <br><br>
+                        <div>
+                            <span class="text-uppercase opacity-7 mb-15px">Çalışma Yaklaşımımız</span>
+                            <h4 class="fs-30">Her projeye stratejik bakış açısıyla yaklaşır, kullanıcı
+                                deneyimini ve iş hedeflerini merkeze alan çözümler geliştiririz.</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="item bg-img background-position-center d-flex align-items-end p-30px border-radius-15px o-hidden"
+                        data-background="assets/imgs/team/3.png">
+                        <a href="page-team.html" class="butn-arrow butn-rounded">
+                            <span class="text-uppercase fs-14 fw-500">Ekibimizi Keşfedin!</span>
+                            <span class="arrow-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
+                                    </path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features p-0">
+        <div class="container">
+            <div class="sec-head text-align-center stack-title text-uppercase md-hide">
+                <h2>Nasıl Çalışıyoruz?</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6" data-ui-animate data-delay="0.4" data-direction="up">
+                    <div class="item mb-60px">
+                        <div class="w-60px mb-30px">
+                            <img src="assets/imgs/serv/1.svg" alt="">
+                        </div>
+                        <h6 class="mb-80px">Yenilikçi <br> Tasarım</h6>
+                        <p>Estetik ve teknolojiyi bir araya getirerek markanızı öne çıkaran, fark yaratan dijital
+                            deneyimler tasarlıyoruz.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-6 col-md-6" data-ui-animate data-delay="0.4" data-direction="up">
+                    <div class="item bg-light mt-60px mb-60px">
+                        <div class="w-60px mb-30px">
+                            <img src="assets/imgs/serv/2.svg" alt="">
+                        </div>
+                        <h6 class="mb-80px">Güçlü <br> İş Birliği</h6>
+                        <p>Vizyonunuzu kendi uzmanlığımızla birleştiriyor, markanıza özel çözümler üreten güçlü bir
+                            ekip anlayışıyla çalışıyoruz.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-5 col-md-6" data-ui-animate data-delay="0.4" data-direction="up">
+                    <div class="item mt-60px mb-60px">
+                        <div class="w-60px mb-30px">
+                            <img src="assets/imgs/serv/7.svg" alt="">
+                        </div>
+                        <h6 class="mb-80px">Sonuç Odaklı <br> Strateji</h6>
+                        <p>Hedeflerinize ulaşmanızı sağlayan, ölçülebilir ve sürdürülebilir dijital stratejiler
+                            geliştiriyoruz.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-2 col-md-6" data-ui-animate data-delay="0.4" data-direction="up">
+                    <div class="item bg-light main-colorbg mt-60px">
+                        <div class="w-60px mb-30px">
+                            <img src="assets/imgs/serv/6.svg" alt="">
+                        </div>
+                        <h6 class="mb-80px">Şeffaf <br> İletişim</h6>
+                        <p>Projenin her aşamasında açık, net ve sürekli iletişim kurarak süreci birlikte yönetiyoruz.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 offset-lg-3 col-md-6" data-ui-animate data-delay="0.4" data-direction="up">
+                    <div class="item mt-60px">
+                        <div class="w-60px mb-30px">
+                            <img src="assets/imgs/serv/5.svg" alt="">
+                        </div>
+                        <h6 class="mb-80px">Etkili <br> Çözümler</h6>
+                        <p>Yalnızca iyi görünen değil, markanıza gerçek değer katan dijital projeler üretiyoruz.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="testim-style1 sub-bg" data-ui-animate data-delay="0.4">
+        <div class="container">
+            <div class="sec-head bord mb-80px">
+                <h6 class="text-uppercase">Müşteri Yorumlarımız</h6>
+            </div>
+            <div class="testim-sliders pb-40px">
+                <div class="row align-items-end">
+                    <div class="col-lg-9">
+                        <div class="main-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="row align-items-center md-marg">
+                                        <div class="col-md-4 col-lg-5">
+                                            <div class="img fit-img h-400px border-radius-30px o-hidden md-mb30">
+                                                <img src="assets/imgs/testim/1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 col-lg-7">
+                                            <svg class="w-90px mb-30px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 800 800">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #fff;
+                                                        }
+
+                                                        .cls-2 {
+                                                            fill: none;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <path class="cls-1"
+                                                    d="M225.87,344.5a233.54,233.54,0,0,1,66.2-60.93l7.93-4.9v-64.1l-19.77,3.76C77,256.67,66.67,421.53,66.67,454.17,66.67,524.4,108.37,600,199.9,600A128.53,128.53,0,0,0,333.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,225.87,344.5Zm-26,222.17c-73.73,0-99.9-60.6-99.9-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L171.37,375H200a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06Q202,566.76,199.9,566.67Zm426-222.17a233.71,233.71,0,0,1,66.17-60.93l7.93-4.9v-64.1l-19.77,3.76C477,256.67,466.67,421.53,466.67,454.17,466.67,524.4,508.37,600,599.9,600A128.53,128.53,0,0,0,733.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,625.87,344.5Zm-26,222.17c-73.7,0-99.87-60.6-99.87-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L571.37,375H600a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06q-2.15,0-4.29-.09Z" />
+                                                <path class="cls-2" d="M0,0H800V800H0Z" />
+                                            </svg>
+                                            <p class="fs-28">“A rebrand is not typically done in a chaotic,
+                                                archaic industry like
+                                                ours, so their work has really set us apart. 10/10 for Hub’s
+                                                team."
+                                            </p>
+                                            <div class="info-text d-flex mt-30px">
+                                                <h6 class="fs-18 mr-15px">B. Gordon</h6>
+                                                <p>CEO Founder, Archin Studio</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row align-items-center md-marg">
+                                        <div class="col-md-4 col-lg-5">
+                                            <div class="img fit-img h-400px border-radius-30px o-hidden md-mb30">
+                                                <img src="assets/imgs/testim/2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 col-lg-7">
+                                            <svg class="w-90px mb-30px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 800 800">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #fff;
+                                                        }
+
+                                                        .cls-2 {
+                                                            fill: none;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <path class="cls-1"
+                                                    d="M225.87,344.5a233.54,233.54,0,0,1,66.2-60.93l7.93-4.9v-64.1l-19.77,3.76C77,256.67,66.67,421.53,66.67,454.17,66.67,524.4,108.37,600,199.9,600A128.53,128.53,0,0,0,333.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,225.87,344.5Zm-26,222.17c-73.73,0-99.9-60.6-99.9-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L171.37,375H200a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06Q202,566.76,199.9,566.67Zm426-222.17a233.71,233.71,0,0,1,66.17-60.93l7.93-4.9v-64.1l-19.77,3.76C477,256.67,466.67,421.53,466.67,454.17,466.67,524.4,508.37,600,599.9,600A128.53,128.53,0,0,0,733.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,625.87,344.5Zm-26,222.17c-73.7,0-99.87-60.6-99.87-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L571.37,375H600a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06q-2.15,0-4.29-.09Z" />
+                                                <path class="cls-2" d="M0,0H800V800H0Z" />
+                                            </svg>
+                                            <p class="fs-28">“A rebrand is not typically done in a chaotic,
+                                                archaic industry like
+                                                ours, so their work has really set us apart. 10/10 for Hub’s
+                                                team."
+                                            </p>
+                                            <div class="info-text d-flex mt-30px">
+                                                <h6 class="fs-18 mr-15px">B. Gordon</h6>
+                                                <p>CEO Founder, Archin Studio</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row align-items-center md-marg">
+                                        <div class="col-md-4 col-lg-5">
+                                            <div class="img fit-img h-400px border-radius-30px o-hidden md-mb30">
+                                                <img src="assets/imgs/testim/3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 col-lg-7">
+                                            <svg class="w-90px mb-30px" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 800 800">
+                                                <defs>
+                                                    <style>
+                                                        .cls-1 {
+                                                            fill: #fff;
+                                                        }
+
+                                                        .cls-2 {
+                                                            fill: none;
+                                                        }
+                                                    </style>
+                                                </defs>
+                                                <path class="cls-1"
+                                                    d="M225.87,344.5a233.54,233.54,0,0,1,66.2-60.93l7.93-4.9v-64.1l-19.77,3.76C77,256.67,66.67,421.53,66.67,454.17,66.67,524.4,108.37,600,199.9,600A128.53,128.53,0,0,0,333.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,225.87,344.5Zm-26,222.17c-73.73,0-99.9-60.6-99.9-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L171.37,375H200a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06Q202,566.76,199.9,566.67Zm426-222.17a233.71,233.71,0,0,1,66.17-60.93l7.93-4.9v-64.1l-19.77,3.76C477,256.67,466.67,421.53,466.67,454.17,466.67,524.4,508.37,600,599.9,600A128.53,128.53,0,0,0,733.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,625.87,344.5Zm-26,222.17c-73.7,0-99.87-60.6-99.87-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L571.37,375H600a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06q-2.15,0-4.29-.09Z" />
+                                                <path class="cls-2" d="M0,0H800V800H0Z" />
+                                            </svg>
+                                            <p class="fs-28">“A rebrand is not typically done in a chaotic,
+                                                archaic industry like
+                                                ours, so their work has really set us apart. 10/10 for Hub’s
+                                                team."
+                                            </p>
+                                            <div class="info-text d-flex mt-30px">
+                                                <h6 class="fs-18 mr-15px">B. Gordon</h6>
+                                                <p>CEO Founder, Archin Studio</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination md-hide"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1">
+                        <div class="thumb-side">
+                            <div class="swiper-controls mb-30px">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                            <div class="thumb-slider md-hide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img fit-img h-250px border-radius-30px o-hidden">
+                                            <img src="assets/imgs/testim/2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img fit-img h-250px border-radius-30px o-hidden">
+                                            <img src="assets/imgs/testim/3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img fit-img h-250px border-radius-30px o-hidden">
+                                            <img src="assets/imgs/testim/1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand-style1 mt-70px position-relative z-index-9">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="item text-align-center">
+                            <a href="#0"><img src="assets/imgs/clients/2.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="item text-align-center">
+                            <a href="#0"><img src="assets/imgs/clients/1.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <div class="item text-align-center">
+                            <a href="#0"><img src="assets/imgs/clients/3.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-12 d-flex justify-content-center md-order-2">
+                        <div class="d-flex align-items-center">
+                            <span class="pr-10 mr-20px line-right border-color-transparent-white-light">
+                                <img src="assets/imgs/global.svg" alt="" class="invert-icon">
+                            </span>
+                            <span>5+ Fazla İş Ortağımız</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6 md-order-1 md-mb30">
+                        <div class="text-align-center">
+                            <a href="#0">Tüm İş Ortaklarımızı 
+                                <br>
+                                İncele! </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="main-marq xlrg with-shad mt-80px pt-40px">
+        <div class="slide-har st1 opacity-5">
+            <div class="box d-flex align-items-center">
+                <div class="item">
+                   <h4>Web Tasarım</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                     <h4>UI / UX</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Web Çözümleri</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Responsive Tasarım</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box d-flex align-items-center">
+                <div class="item">
+                    <h4>Landing Page</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>E-Ticaret</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>SEO Uyumlu</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>Modern Arayüz</h4>
+                </div>
+                <div class="item">
+                    <div class="w-70px">
+                        <img src="assets/imgs/star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="awards-reval position-relative" data-ui-animate data-delay="0.4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <div class="item-row hover-reveal-item">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div>
+                                    <span class="award-year">2025</span>
+                                    <span class="award-text">1x agency of the year</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="award-position">Winner</span>
+                                    <span class="award-icon">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentcolor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="award-reveal-img bg-img" data-background="assets/imgs/awards/award-1.jpg"></div>
+                    </div>
+                    <div class="item-row hover-reveal-item">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div>
+                                    <span class="award-year">2024</span>
+                                    <span class="award-text">Article on Medium</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="award-position">UI/UX design</span>
+                                    <span class="award-icon">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentcolor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="award-reveal-img bg-img" data-background="assets/imgs/awards/award-2.jpg"></div>
+                    </div>
+                    <div class="item-row hover-reveal-item">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div>
+                                    <span class="award-year">2023</span>
+                                    <span class="award-text">2x Featured design of the week</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="award-position">Mentioned</span>
+                                    <span class="award-icon">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentcolor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="award-reveal-img bg-img" data-background="assets/imgs/awards/award-3.jpg"></div>
+                    </div>
+                    <div class="item-row hover-reveal-item">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div>
+                                    <span class="award-year">2022</span>
+                                    <span class="award-text">Behance curated work</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="award-position">Graphic design</span>
+                                    <span class="award-icon">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentcolor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="award-reveal-img bg-img" data-background="assets/imgs/awards/award-4.jpg"></div>
+                    </div>
+                    <div class="item-row hover-reveal-item">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div>
+                                    <span class="award-year">2021</span>
+                                    <span class="award-text">1x agency of the year</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="award-position">Winner</span>
+                                    <span class="award-icon">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentcolor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="award-reveal-img bg-img" data-background="assets/imgs/awards/award-5.jpeg"></div>
+                    </div>
+                    <div class="item-row hover-reveal-item">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div>
+                                    <span class="award-year">2024</span>
+                                    <span class="award-text">Article on Medium</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="award-position">UI/UX design</span>
+                                    <span class="award-icon">
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentcolor" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="award-reveal-img bg-img" data-background="assets/imgs/awards/award-6.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-top-left w-300px opacity-2" data-speed="0.9" data-lag="0">
+            <img src="assets/imgs/mshap2.webp" alt="">
+        </div>
+    </section>
+    <section class="blog-style2 pt-0">
+        <div class="container">
+            <div class="sec-head mb-80px" data-ui-animate data-delay="0.2">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="text-align-center">
+                            <span class="butn-bord-sm mb-15px">Blog</span>
+                            <h2 class="fs-60">Son Yazılarımız</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container" data-ui-animate data-delay="0.4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="fit-img h-350px border-radius-30px o-hidden">
+                                <img src="assets/imgs/blog/b1.png" alt="">
+                            </div>
+                            <div class="text mt-30px">
+                                <div class="info fs-13 mb-20px d-flex align-items-center">
+                                    <span class="opacity-7">Design</span>
+                                    <span class="mr-15px ml-15px opacity-7">|</span>
+                                    <span class="fs-14 opacity-7">25 Aug 2024</span>
+                                </div>
+                                <h5><a href="blog-details.html">The top Digital Marketing for business
+                                        growth</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="fit-img h-350px border-radius-30px o-hidden">
+                                <img src="assets/imgs/blog/b2.png" alt="">
+                            </div>
+                            <div class="text mt-30px">
+                                <div class="info fs-13 mb-20px d-flex align-items-center">
+                                    <span class="opacity-7">Design</span>
+                                    <span class="mr-15px ml-15px opacity-7">|</span>
+                                    <span class="fs-14 opacity-7">25 Aug 2024</span>
+                                </div>
+                                <h5><a href="blog-details.html">How to furnish and decorate a creative
+                                        agency</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="fit-img h-350px border-radius-30px o-hidden">
+                                <img src="assets/imgs/blog/b3.png" alt="">
+                            </div>
+                            <div class="text mt-30px">
+                                <div class="info fs-13 mb-20px d-flex align-items-center">
+                                    <span class="opacity-7">Design</span>
+                                    <span class="mr-15px ml-15px opacity-7">|</span>
+                                    <span class="fs-14 opacity-7">25 Aug 2024</span>
+                                </div>
+                                <h5><a href="blog-details.html">The top Digital Marketing for business
+                                        growth</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="fit-img h-350px border-radius-30px o-hidden">
+                                <img src="assets/imgs/blog/b4.png" alt="">
+                            </div>
+                            <div class="text mt-30px">
+                                <div class="info fs-13 mb-20px d-flex align-items-center">
+                                    <span class="opacity-7">Design</span>
+                                    <span class="mr-15px ml-15px opacity-7">|</span>
+                                    <span class="fs-14 opacity-7">25 Aug 2024</span>
+                                </div>
+                                <h5><a href="blog-details.html">Simple tips for effective social media
+                                        marketing</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection

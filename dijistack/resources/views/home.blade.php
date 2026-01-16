@@ -1,5 +1,7 @@
 @extends('partials.master')
 @section('main')
+
+ <main class="o-hidden">
     <header class="hero-style1 position-relative o-hidden">
         <div class="bg-img" data-background="assets/imgs/pattern-bg.webp">
         </div>
@@ -1046,4 +1048,5 @@
             </div>
         </div>
     </section>
+      </main>
 @endsection

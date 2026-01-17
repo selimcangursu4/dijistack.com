@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('project_features', function (Blueprint $table) {
             $table->id();
             $table->integer('project_id');
-            $table->string('title');
-            $table->enum('type',['left','right']);
+            $table->string('feature_title');
+            $table->text('feature_main');
+            $table->integer('sort_order');
             $table->timestamps();
         });
     }

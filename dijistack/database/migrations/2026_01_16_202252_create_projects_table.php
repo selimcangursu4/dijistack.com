@@ -19,11 +19,9 @@ return new class extends Migration
             $table->string('category');
             $table->string('client');
             $table->string('designer');
-            $table->date('start_date');
-            $table->text('overview_title');
-            $table->text('overview_text');
-            $table->string('background_title');
-            $table->string('background_text');
+            $table->text('website_link');
+            $table->string('big_image_1');
+            $table->string('big_image_2');
             $table->text('slug');
             $table->text('meta_title');
             $table->text('meta_description');

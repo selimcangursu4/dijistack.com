@@ -11,6 +11,8 @@ class HomeController extends Controller
     {
         $projects = DB::table('projects')->where('is_active', 1)->get();
         $services = DB::table('services')->where('is_featured',1)->get();
-        return view('home',compact('projects','services'));
+        $testimonials = DB::table('testimonials')->where('is_active',1)->get();
+        $brands = DB::table('partners')->where('is_active',1)->take(4)->get();
+        return view('home',compact('projects','services','testimonials','brands'));
     }
 }

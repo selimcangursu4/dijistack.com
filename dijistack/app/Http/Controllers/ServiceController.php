@@ -8,7 +8,9 @@ use Illuminate\Support\Facades\DB;
 class ServiceController extends Controller
 {
     public function view(){
-        return view('services.services');
+
+        $services = DB::table('services')->get();
+        return view('services.services',compact('services'));
     }
        public function edit($slug){
 

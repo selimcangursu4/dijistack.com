@@ -151,7 +151,7 @@
                             <div class="item v-align-between {{ $service->is_featured ? 'bg-dark' : '' }}">
 
                                 <div class="img service-icon">
-                                   {!! $service->icon_svg !!}
+                                    {!! $service->icon_svg !!}
                                 </div>
 
                                 <div>
@@ -297,13 +297,14 @@
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
                                     fill="currentColor">
                                     <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                                                                                                      c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                                                                                                      c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                                                                                                      C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                                                                                                      c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                                                                                                      s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                                                                                                      c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                                                                                                      "></path>
+                                                                                                                      c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
+                                                                                                                      c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
+                                                                                                                      C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
+                                                                                                                      c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
+                                                                                                                      s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
+                                                                                                                      c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
+                                                                                                                      ">
+                                    </path>
                                 </svg>
                             </div>
                             <div>
@@ -323,17 +324,20 @@
                     </div>
                     <div class="col-lg-8 col-md-6">
                         <div class="item bg-img background-position-center d-flex align-items-end p-30px border-radius-15px o-hidden"
-                            data-background="assets/imgs/team/3.png">
-                            <a href="page-team.html" class="butn-arrow butn-rounded">
+                            data-background="{{ asset('assets/imgs/team/selimcangursu-photo.jpg') }}"
+                            style="
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            ">
+                            <a href="/ekibimiz" class="butn-arrow butn-rounded">
                                 <span class="text-uppercase fs-14 fw-500">Ekibimizi Keşfedin!</span>
                                 <span class="arrow-icon">
                                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                        </path>
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16"></path>
                                     </svg>
                                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16">
-                                        </path>
+                                        <path d="M7 11.5H17.0635M17.0635 11.5L12.5635 7M17.0635 11.5L12.5635 16"></path>
                                     </svg>
                                 </span>
                             </a>
@@ -405,6 +409,7 @@
 
             </div>
         </section>
+
         <section class="testim-style1 sub-bg" data-ui-animate data-delay="0.4">
             <div class="container">
                 <div class="sec-head bord mb-80px">
@@ -415,187 +420,76 @@
                         <div class="col-lg-9">
                             <div class="main-slider">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="row align-items-center md-marg">
-                                            <div class="col-md-4 col-lg-5">
-                                                <div class="img fit-img h-400px border-radius-30px o-hidden md-mb30">
-                                                    <img src="assets/imgs/testim/1.jpg" alt="">
+                                    @foreach ($testimonials as $test)
+                                        <div class="swiper-slide">
+                                            <div class="row align-items-center md-marg">
+                                                <div class="col-md-4 col-lg-5">
+                                                    <div class="img fit-img h-400px border-radius-30px o-hidden md-mb30">
+                                                        <img src="{{ asset('assets/imgs/testim/' . $test->image) }}"
+                                                            alt="{{ $test->name }}"
+                                                            style="width:100%; height:100%; object-fit:cover;">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-8 col-lg-7">
-                                                <svg class="w-90px mb-30px" xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 800 800">
-                                                    <defs>
-                                                        <style>
-                                                            .cls-1 {
-                                                                fill: #fff;
-                                                            }
+                                                <div class="col-md-8 col-lg-7">
+                                                    <svg class="w-90px mb-30px" xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 800 800">
+                                                        <path fill="#fff"
+                                                            d="M225.87,344.5a233.54,233.54,0,0,1,66.2-60.93l7.93-4.9v-64.1l-19.77,3.76C77,256.67,66.67,421.53,66.67,454.17,66.67,524.4,108.37,600,199.9,600A128.53,128.53,0,0,0,333.24,476.46Z" />
+                                                    </svg>
 
-                                                            .cls-2 {
-                                                                fill: none;
-                                                            }
-                                                        </style>
-                                                    </defs>
-                                                    <path class="cls-1"
-                                                        d="M225.87,344.5a233.54,233.54,0,0,1,66.2-60.93l7.93-4.9v-64.1l-19.77,3.76C77,256.67,66.67,421.53,66.67,454.17,66.67,524.4,108.37,600,199.9,600A128.53,128.53,0,0,0,333.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,225.87,344.5Zm-26,222.17c-73.73,0-99.9-60.6-99.9-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L171.37,375H200a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06Q202,566.76,199.9,566.67Zm426-222.17a233.71,233.71,0,0,1,66.17-60.93l7.93-4.9v-64.1l-19.77,3.76C477,256.67,466.67,421.53,466.67,454.17,466.67,524.4,508.37,600,599.9,600A128.53,128.53,0,0,0,733.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,625.87,344.5Zm-26,222.17c-73.7,0-99.87-60.6-99.87-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L571.37,375H600a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06q-2.15,0-4.29-.09Z" />
-                                                    <path class="cls-2" d="M0,0H800V800H0Z" />
-                                                </svg>
-                                                <p class="fs-28">“A rebrand is not typically done in a chaotic,
-                                                    archaic industry like
-                                                    ours, so their work has really set us apart. 10/10 for Hub’s
-                                                    team."
-                                                </p>
-                                                <div class="info-text d-flex mt-30px">
-                                                    <h6 class="fs-18 mr-15px">B. Gordon</h6>
-                                                    <p>CEO Founder, Archin Studio</p>
+                                                    <p class="fs-28">
+                                                        “{{ $test->comment }}”
+                                                    </p>
+
+                                                    <div class="info-text d-flex mt-30px">
+                                                        <h6 class="fs-18 mr-15px">{{ $test->name }}</h6>
+                                                        <p>{{ $test->title }}</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="row align-items-center md-marg">
-                                            <div class="col-md-4 col-lg-5">
-                                                <div class="img fit-img h-400px border-radius-30px o-hidden md-mb30">
-                                                    <img src="assets/imgs/testim/2.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 col-lg-7">
-                                                <svg class="w-90px mb-30px" xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 800 800">
-                                                    <defs>
-                                                        <style>
-                                                            .cls-1 {
-                                                                fill: #fff;
-                                                            }
-
-                                                            .cls-2 {
-                                                                fill: none;
-                                                            }
-                                                        </style>
-                                                    </defs>
-                                                    <path class="cls-1"
-                                                        d="M225.87,344.5a233.54,233.54,0,0,1,66.2-60.93l7.93-4.9v-64.1l-19.77,3.76C77,256.67,66.67,421.53,66.67,454.17,66.67,524.4,108.37,600,199.9,600A128.53,128.53,0,0,0,333.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,225.87,344.5Zm-26,222.17c-73.73,0-99.9-60.6-99.9-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L171.37,375H200a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06Q202,566.76,199.9,566.67Zm426-222.17a233.71,233.71,0,0,1,66.17-60.93l7.93-4.9v-64.1l-19.77,3.76C477,256.67,466.67,421.53,466.67,454.17,466.67,524.4,508.37,600,599.9,600A128.53,128.53,0,0,0,733.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,625.87,344.5Zm-26,222.17c-73.7,0-99.87-60.6-99.87-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L571.37,375H600a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06q-2.15,0-4.29-.09Z" />
-                                                    <path class="cls-2" d="M0,0H800V800H0Z" />
-                                                </svg>
-                                                <p class="fs-28">“A rebrand is not typically done in a chaotic,
-                                                    archaic industry like
-                                                    ours, so their work has really set us apart. 10/10 for Hub’s
-                                                    team."
-                                                </p>
-                                                <div class="info-text d-flex mt-30px">
-                                                    <h6 class="fs-18 mr-15px">B. Gordon</h6>
-                                                    <p>CEO Founder, Archin Studio</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="row align-items-center md-marg">
-                                            <div class="col-md-4 col-lg-5">
-                                                <div class="img fit-img h-400px border-radius-30px o-hidden md-mb30">
-                                                    <img src="assets/imgs/testim/3.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 col-lg-7">
-                                                <svg class="w-90px mb-30px" xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 800 800">
-                                                    <defs>
-                                                        <style>
-                                                            .cls-1 {
-                                                                fill: #fff;
-                                                            }
-
-                                                            .cls-2 {
-                                                                fill: none;
-                                                            }
-                                                        </style>
-                                                    </defs>
-                                                    <path class="cls-1"
-                                                        d="M225.87,344.5a233.54,233.54,0,0,1,66.2-60.93l7.93-4.9v-64.1l-19.77,3.76C77,256.67,66.67,421.53,66.67,454.17,66.67,524.4,108.37,600,199.9,600A128.53,128.53,0,0,0,333.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,225.87,344.5Zm-26,222.17c-73.73,0-99.9-60.6-99.9-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L171.37,375H200a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06Q202,566.76,199.9,566.67Zm426-222.17a233.71,233.71,0,0,1,66.17-60.93l7.93-4.9v-64.1l-19.77,3.76C477,256.67,466.67,421.53,466.67,454.17,466.67,524.4,508.37,600,599.9,600A128.53,128.53,0,0,0,733.24,476.46q.12-2.88.09-5.76A130.2,130.2,0,0,0,625.87,344.5Zm-26,222.17c-73.7,0-99.87-60.6-99.87-112.5,0-37.84,12.4-160.24,166.67-198.77v4.87a266.2,266.2,0,0,0-84,89.83L571.37,375H600a98,98,0,0,1,100,95.7,95.94,95.94,0,0,1-95.81,96.06q-2.15,0-4.29-.09Z" />
-                                                    <path class="cls-2" d="M0,0H800V800H0Z" />
-                                                </svg>
-                                                <p class="fs-28">“A rebrand is not typically done in a chaotic,
-                                                    archaic industry like
-                                                    ours, so their work has really set us apart. 10/10 for Hub’s
-                                                    team."
-                                                </p>
-                                                <div class="info-text d-flex mt-30px">
-                                                    <h6 class="fs-18 mr-15px">B. Gordon</h6>
-                                                    <p>CEO Founder, Archin Studio</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @endforeach
                                 </div>
                                 <div class="swiper-pagination md-hide"></div>
                             </div>
                         </div>
-                        <div class="col-lg-2 offset-lg-1">
-                            <div class="thumb-side">
-                                <div class="swiper-controls mb-30px">
-                                    <div class="swiper-button-prev"></div>
-                                    <div class="swiper-button-next"></div>
-                                </div>
-                                <div class="thumb-slider md-hide">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="img fit-img h-250px border-radius-30px o-hidden">
-                                                <img src="assets/imgs/testim/2.jpg" alt="">
+                        <div class="brand-style1 mt-70px position-relative z-index-9">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    @foreach ($brands as $brand)
+                                        <div class="col-lg-2 col-md-4 col-6 ">
+                                            <div class="item text-align-center bg-light">
+                                                <a href="{{ $brand->website_url ?? '#0' }}" target="_blank">
+                                                    <img src="{{ asset('assets/imgs/clients/' . $brand->logo_path) }}"
+                                                        alt="{{ $brand->name }}">
+
+                                                </a>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="img fit-img h-250px border-radius-30px o-hidden">
-                                                <img src="assets/imgs/testim/3.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="img fit-img h-250px border-radius-30px o-hidden">
-                                                <img src="assets/imgs/testim/1.jpg" alt="">
-                                            </div>
+                                    @endforeach
+                                    <div class="col-lg-2 col-md-4 col-12 d-flex justify-content-center md-order-2">
+                                        <div class="d-flex align-items-center">
+                                            <span class="pr-10 mr-20px line-right border-color-transparent-white-light">
+                                                <img src="{{ asset('assets/imgs/global.svg') }}" alt=""
+                                                    class="invert-icon">
+                                            </span>
+                                            <span>{{ $brands->count() }}+ Fazla İş Ortağımız</span>
                                         </div>
                                     </div>
+                                    <div class="col-lg-2 col-md-4 col-6 md-order-1 md-mb30">
+                                        <div class="text-align-center">
+                                            <a href="/is-ortaklarimiz">
+                                                Tüm İş Ortaklarımızı
+                                                <br>
+                                                İncele!
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="brand-style1 mt-70px position-relative z-index-9">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <div class="item text-align-center">
-                                <a href="#0"><img src="assets/imgs/clients/2.svg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6">
-                            <div class="item text-align-center">
-                                <a href="#0"><img src="assets/imgs/clients/1.svg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <div class="item text-align-center">
-                                <a href="#0"><img src="assets/imgs/clients/3.svg" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-12 d-flex justify-content-center md-order-2">
-                            <div class="d-flex align-items-center">
-                                <span class="pr-10 mr-20px line-right border-color-transparent-white-light">
-                                    <img src="assets/imgs/global.svg" alt="" class="invert-icon">
-                                </span>
-                                <span>5+ Fazla İş Ortağımız</span>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6 md-order-1 md-mb30">
-                            <div class="text-align-center">
-                                <a href="#0">Tüm İş Ortaklarımızı
-                                    <br>
-                                    İncele! </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </section>
         <div class="main-marq xlrg with-shad mt-80px pt-40px">
             <div class="slide-har st1 opacity-5">

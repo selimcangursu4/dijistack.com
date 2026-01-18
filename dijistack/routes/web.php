@@ -9,6 +9,8 @@ use App\Http\Controllers\PartnersController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\CareerController;
+
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/projelerimiz', [ProjectController::class, 'view'])->name('project.view');
@@ -30,3 +32,6 @@ Route::get('/iletisim', [ContactController::class, 'view'])->name('contact.view'
 Route::post('/iletisim-form', [ContactController::class, 'store'])->name('contact.store');
 
 Route::get('/hakkimizda', [AboutController::class, 'view'])->name('about.view');
+
+Route::get('/kariyer', [CareerController::class, 'view'])->name('career.view');
+Route::post('/kariyer-form', [CareerController::class, 'store'])->name('career.store');

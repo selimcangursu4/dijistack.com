@@ -13,6 +13,10 @@ class HomeController extends Controller
         $services = DB::table('services')->where('is_featured',1)->get();
         $testimonials = DB::table('testimonials')->where('is_active',1)->get();
         $brands = DB::table('partners')->where('is_active',1)->take(4)->get();
-        return view('home',compact('projects','services','testimonials','brands'));
+        $blogs = DB::table('blogs')
+        ->orderBy('created_at', 'desc') 
+        ->take(3)                    
+        ->get();   
+        return view('home',compact('projects','services','testimonials','brands','blogs'));
     }
 }

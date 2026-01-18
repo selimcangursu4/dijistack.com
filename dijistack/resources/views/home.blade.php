@@ -44,7 +44,7 @@
                                 yönetim panelleri ve yapay zeka destekli dijital ürünler geliştiriyoruz. Güçlü altyapılar,
                                 modern teknolojiler ve kullanıcı odaklı çözümlerle markanıza sürdürülebilir dijital değer
                                 katıyoruz.</p>
-                            <a href="page-about.html" class="butn-arrow mt-30px">
+                            <a href="{{route('contact.view')}}" class="butn-arrow mt-30px">
                                 <span class="text-uppercase fs-14 fw-500">Birlikte Çalışalım!</span>
                                 <span class="arrow-icon">
                                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -296,14 +296,15 @@
                             <div class="mb-80px w-100px">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"
                                     fill="currentColor">
-                                    <path fill="currentColor" d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
-                                                                                                                      c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
-                                                                                                                      c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
-                                                                                                                      C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
-                                                                                                                      c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
-                                                                                                                      s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
-                                                                                                                      c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
-                                                                                                                      ">
+                                    <path fill="currentColor"
+                                        d="M78.4,38.4c0,0-11.8,0-15.8,0c-1.6,0-4.8-0.2-7.1-0.8c-2.3-0.6-4.3-0.8-6.3-2.4c-2-1.2-3.5-3.2-4.7-4.8
+                                                                                                                              c-1.2-1.6-1.6-3.6-2-5.5c-0.3-1.5-0.7-4.3-0.8-5.9c-0.2-4.3,0-17.4,0-17.4C41.8,0.8,41,0,40.2,0s-1.6,0.8-1.6,1.6c0,0,0,13.1,0,17.4
+                                                                                                                              c0,1.6-0.6,4.3-0.8,5.9c-0.3,2-0.8,4-2,5.5c-1.2,2-2.8,3.6-4.7,4.8s-4,1.8-6.3,2.4c-1.9,0.5-4.7,0.6-6.7,0.8c-3.9,0.4-16.6,0-16.6,0
+                                                                                                                              C0.8,38.4,0,39.2,0,40c0,0.8,0.8,1.6,1.6,1.6c0,0,12.2,0,16.6,0c1.6,0,4.8,0.3,6.7,0.8c2.3,0.6,4.3,0.8,6.3,2.4
+                                                                                                                              c1.6,1.2,3.2,2.8,4.3,4.4c1.2,2,2.1,3.9,2.4,6.3c0.2,1.7,0.7,4.7,0.8,6.7c0.2,4,0,16.2,0,16.2c0,0.8,0.8,1.6,1.6,1.6
+                                                                                                                              s1.6-0.8,1.6-1.6c0,0,0-12.3,0-16.2c0-1.6,0.5-5.1,0.8-6.7c0.5-2.3,0.8-4.4,2.4-6.3c1.2-1.6,2.8-3.2,4.3-4.4c2-1.2,3.9-2,6.3-2.4
+                                                                                                                              c1.8-0.3,5.1-0.7,7.1-0.8c3.5-0.2,15.8,0,15.8,0c0.8,0,1.6-0.8,1.6-1.6C80,39.2,79.2,38.4,78.4,38.4C78.4,38.4,78.4,38.4,78.4,38.4z
+                                                                                                                              ">
                                     </path>
                                 </svg>
                             </div>
@@ -562,7 +563,6 @@
                 </div>
             </div>
         </div>
-
         <section class="blog-style2 pt-0 mt-5">
             <div class="container">
                 <div class="sec-head mb-80px" data-ui-animate data-delay="0.2">
@@ -577,70 +577,28 @@
                 </div>
                 <div class="swiper-container" data-ui-animate data-delay="0.4">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="item">
-                                <div class="fit-img h-350px border-radius-30px o-hidden">
-                                    <img src="assets/imgs/blog/b1.png" alt="">
-                                </div>
-                                <div class="text mt-30px">
-                                    <div class="info fs-13 mb-20px d-flex align-items-center">
-                                        <span class="opacity-7">Design</span>
-                                        <span class="mr-15px ml-15px opacity-7">|</span>
-                                        <span class="fs-14 opacity-7">25 Aug 2024</span>
+                        @foreach ($blogs as $blog)
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="fit-img h-350px border-radius-30px o-hidden">
+                                        <img src="{{ asset('assets/imgs/blog/' . $blog->featured_image) }}"
+                                            alt="{{ $blog->title }}">
                                     </div>
-                                    <h5><a href="blog-details.html">The top Digital Marketing for business
-                                            growth</a></h5>
+                                    <div class="text mt-30px">
+                                        <div class="info fs-13 mb-20px d-flex align-items-center">
+                                            <span class="opacity-7">{{ $blog->category }}</span>
+                                            <span class="mr-15px ml-15px opacity-7">|</span>
+                                            @php \Carbon\Carbon::setLocale('tr'); @endphp
+                                            <span
+                                                class="fs-14 opacity-7">{{ \Carbon\Carbon::parse($blog->published_at)->translatedFormat('d F Y') }}</span>
+                                        </div>
+                                        <h5>
+                                            <a href="{{ route('blogs.edit', $blog->slug) }}">{{ $blog->title }}</a>
+                                        </h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="item">
-                                <div class="fit-img h-350px border-radius-30px o-hidden">
-                                    <img src="assets/imgs/blog/b2.png" alt="">
-                                </div>
-                                <div class="text mt-30px">
-                                    <div class="info fs-13 mb-20px d-flex align-items-center">
-                                        <span class="opacity-7">Design</span>
-                                        <span class="mr-15px ml-15px opacity-7">|</span>
-                                        <span class="fs-14 opacity-7">25 Aug 2024</span>
-                                    </div>
-                                    <h5><a href="blog-details.html">How to furnish and decorate a creative
-                                            agency</a></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="item">
-                                <div class="fit-img h-350px border-radius-30px o-hidden">
-                                    <img src="assets/imgs/blog/b3.png" alt="">
-                                </div>
-                                <div class="text mt-30px">
-                                    <div class="info fs-13 mb-20px d-flex align-items-center">
-                                        <span class="opacity-7">Design</span>
-                                        <span class="mr-15px ml-15px opacity-7">|</span>
-                                        <span class="fs-14 opacity-7">25 Aug 2024</span>
-                                    </div>
-                                    <h5><a href="blog-details.html">The top Digital Marketing for business
-                                            growth</a></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="item">
-                                <div class="fit-img h-350px border-radius-30px o-hidden">
-                                    <img src="assets/imgs/blog/b4.png" alt="">
-                                </div>
-                                <div class="text mt-30px">
-                                    <div class="info fs-13 mb-20px d-flex align-items-center">
-                                        <span class="opacity-7">Design</span>
-                                        <span class="mr-15px ml-15px opacity-7">|</span>
-                                        <span class="fs-14 opacity-7">25 Aug 2024</span>
-                                    </div>
-                                    <h5><a href="blog-details.html">Simple tips for effective social media
-                                            marketing</a></h5>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>

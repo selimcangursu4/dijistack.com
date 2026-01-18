@@ -10,6 +10,11 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CareerController;
+use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\KvkkController;
+use App\Http\Controllers\CookiePolicyController;
+use App\Http\Controllers\TermsOfUseController;
+
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -35,3 +40,8 @@ Route::get('/hakkimizda', [AboutController::class, 'view'])->name('about.view');
 
 Route::get('/kariyer', [CareerController::class, 'view'])->name('career.view');
 Route::post('/kariyer-form', [CareerController::class, 'store'])->name('career.store');
+
+Route::get('/gizlilik-politikasi', [PrivacyPolicyController::class, 'view'])->name('privacy-policy.view');
+Route::get('/kullanim-kosullari', [TermsOfUseController::class, 'view'])->name('terms-of-use.view');
+Route::get('/kvkk-aydinlatma-metni', [KvkkController::class, 'view'])->name('kvkk.view');
+Route::get('/cerez-politikasi', [CookiePolicyController::class, 'view'])->name('cookie-policy.view');

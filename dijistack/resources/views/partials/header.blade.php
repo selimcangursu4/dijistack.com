@@ -29,11 +29,11 @@
                         <li><a class="dropdown-item" href="{{route('project.view')}}">Projelerimiz</a></li>
                         <li><a class="dropdown-item" href="{{route('about.view')}}">Hakkımızda</a></li>
                         <li><a class="dropdown-item" href="{{route('teams.view')}}">Ekibimiz</a></li>
-                        <li><a class="dropdown-item" href="portfolio-cards.html">Kariyer</a></li>
-                        <li><a class="dropdown-item" href="portfolio-elegant.html">Gizlilik Politikası</a></li>
-                        <li><a class="dropdown-item" href="portfolio-interactive.html">Kullanım Koşulları</a></li>
-                        <li><a class="dropdown-item" href="portfolio-grid.html">KVKK Aydınlatma Metni</a></li>
-                        <li><a class="dropdown-item" href="portfolio-gallery.html">Çerez Politikası</a></li>
+                        <li><a class="dropdown-item" href="{{route('career.view')}}">Kariyer</a></li>
+                        <li><a class="dropdown-item" href="{{route('privacy-policy.view')}}">Gizlilik Politikası</a></li>
+                        <li><a class="dropdown-item" href="{{route('terms-of-use.view')}}">Kullanım Koşulları</a></li>
+                        <li><a class="dropdown-item" href="{{route('kvkk.view')}}">KVKK Aydınlatma Metni</a></li>
+                        <li><a class="dropdown-item" href="{{route('cookie-policy.view')}}">Çerez Politikası</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="{{route('blogs.view')}}"><span class="rolling-text">Blog</span></a></li>

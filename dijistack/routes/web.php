@@ -8,6 +8,7 @@ use App\Http\Controllers\TeamController;
 use App\Http\Controllers\PartnersController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AboutController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/projelerimiz', [ProjectController::class, 'view'])->name('project.view');
@@ -27,3 +28,5 @@ Route::get('/bloglarimiz/{slug}', [BlogController::class, 'edit'])->name('blogs.
 
 Route::get('/iletisim', [ContactController::class, 'view'])->name('contact.view');
 Route::post('/iletisim-form', [ContactController::class, 'store'])->name('contact.store');
+
+Route::get('/hakkimizda', [AboutController::class, 'view'])->name('about.view');

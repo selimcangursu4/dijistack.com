@@ -27,7 +27,7 @@
                         aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Kurumsal</span></a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{route('project.view')}}">Projelerimiz</a></li>
-                        <li><a class="dropdown-item" href="portfolio-carousel.html">Hakkımızda</a></li>
+                        <li><a class="dropdown-item" href="{{route('about.view')}}">Hakkımızda</a></li>
                         <li><a class="dropdown-item" href="{{route('teams.view')}}">Ekibimiz</a></li>
                         <li><a class="dropdown-item" href="portfolio-cards.html">Kariyer</a></li>
                         <li><a class="dropdown-item" href="portfolio-elegant.html">Gizlilik Politikası</a></li>

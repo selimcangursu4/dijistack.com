@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="rolling-text">Anasayfa</span></a>
+                    <a class="nav-link" href="{{route('home')}}"><span class="rolling-text">Anasayfa</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -26,7 +26,7 @@
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Kurumsal</span></a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="portfolio-parallax-slider.html">Projelerimiz</a></li>
+                        <li><a class="dropdown-item" href="{{route('project.view')}}">Projelerimiz</a></li>
                         <li><a class="dropdown-item" href="portfolio-carousel.html">Hakkımızda</a></li>
                         <li><a class="dropdown-item" href="portfolio-parallax.html">Ekibimiz</a></li>
                         <li><a class="dropdown-item" href="portfolio-cards.html">Kariyer</a></li>

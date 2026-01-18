@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +11,8 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}">
@@ -18,6 +20,7 @@
 
     @stack('head')
 </head>
+
 <body>
     @include('partials.header')
 
@@ -51,11 +54,44 @@
     <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery-migrate-3.4.0.min.js') }}"></script>
     <script src="{{ asset('assets/js/plugins.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+
     <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <script src="{{ asset('assets/js/ScrollSmoother.min.js') }}"></script>
     <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
-    <script src="{{ asset('assets/js/scripts.js') }}"></script>
+    <script src="{{ asset('assets/js/smoother-script.js') }}"></script>
+    <script src="{{ asset('assets/js/springer.min.js') }}"></script>
 
-    @stack('scripts')
+
+    <script src="{{ asset('assets/js/scripts.js') }}"></script>
+    <script>
+        $(function() {
+
+            if ($(window).width() <= 991) return;
+            if (!$('.hr-container').length) return;
+
+            gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+            let sections = gsap.utils.toArray(".hr-container .item-panel");
+
+            gsap.to(sections, {
+                xPercent: -100 * (sections.length - 1),
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".hr-container",
+                    start: "top top",
+                    scrub: 1,
+                    pin: true,
+                    pinType: "transform",
+                    end: () => "+=" + document.querySelector(".hr-container").offsetWidth
+                }
+            });
+
+        });
+    </script>
+
+
+
 </body>
+
 </html>

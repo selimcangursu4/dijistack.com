@@ -35,7 +35,7 @@
                                     </svg>
                                 </div>
                                 <div class="icon text-align-center">
-                                    <span class="w-80px"><img src="assets/imgs/shape1.png" alt=""></span>
+                                    <span class="w-200px"><img  src="{{asset('assets/imgs/dijistack-logo.png')}}" alt=""></span>
                                 </div>
                             </div>
                         </div>

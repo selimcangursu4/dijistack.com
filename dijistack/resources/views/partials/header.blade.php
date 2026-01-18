@@ -16,10 +16,10 @@
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false"><span class="rolling-text">Hizmetlerimiz</span></a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="page-about.html">Kurumsal Web Tasarım</a></li>
-                        <li><a class="dropdown-item" href="page-services.html">Özel Yazılım & Yönetim Paneli</a></li>
-                        <li><a class="dropdown-item" href="page-team.html">Mobil Uygulama Geliştirme</a></li>
-                        <li><a class="dropdown-item" href="page-pricing.html">Yapay Zeka & Otomasyon Entegrasyonu</a></li>
+                        <li><a class="dropdown-item" href="/hizmetlerimiz/kurumsal-website-tasarimi">Kurumsal Web Tasarım</a></li>
+                        <li><a class="dropdown-item" href="/hizmetlerimiz/ozel-yazilim-yonetim-paneli">Özel Yazılım & Yönetim Paneli</a></li>
+                        <li><a class="dropdown-item" href="/hizmetlerimiz/mobil-uygulama-gelistirme">Mobil Uygulama Geliştirme</a></li>
+                        <li><a class="dropdown-item" href="/hizmetlerimiz/yapay-zeka-otomasyonu-entegrasyonu">Yapay Zeka & Otomasyon Entegrasyonu</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -28,7 +28,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{route('project.view')}}">Projelerimiz</a></li>
                         <li><a class="dropdown-item" href="portfolio-carousel.html">Hakkımızda</a></li>
-                        <li><a class="dropdown-item" href="portfolio-parallax.html">Ekibimiz</a></li>
+                        <li><a class="dropdown-item" href="{{route('teams.view')}}">Ekibimiz</a></li>
                         <li><a class="dropdown-item" href="portfolio-cards.html">Kariyer</a></li>
                         <li><a class="dropdown-item" href="portfolio-elegant.html">Gizlilik Politikası</a></li>
                         <li><a class="dropdown-item" href="portfolio-interactive.html">Kullanım Koşulları</a></li>
@@ -36,8 +36,8 @@
                         <li><a class="dropdown-item" href="portfolio-gallery.html">Çerez Politikası</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="blog.html"><span class="rolling-text">Blog</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="page-contact.html"><span class="rolling-text">İletişim</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('blogs.view')}}"><span class="rolling-text">Blog</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('contact.view')}}"><span class="rolling-text">İletişim</span></a></li>
             </ul>
         </div>
     </div>

@@ -10,7 +10,7 @@
                                 <h2><span class="opacity-7">Projeniz için bizimle iletişime geçin. En kısa sürede size dönüş yapalım.</span></h2>
                             </div>
                             <div>
-                                <a href="page-contact.html" class="butn-arrow butn-rounded">
+                                <a href="{{route('contact.view')}}" class="butn-arrow butn-rounded">
                                     <span class="text-uppercase fs-14 fw-500">İletişime Geç!</span>
                                     <span class="arrow-icon">
                                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,14 +29,14 @@
                             <p class="fs-14 text-uppercase fw-200">© 2026 <a href="">Dijistack</a>. Tüm Hakları Saklıdır.</p>
                         </div>
                         <div class="tags text-align-right">
-                            <a href="page-services.html">Anasayfa</a>
-                            <a href="page-services.html">Hizmetlerimiz</a>
-                            <a href="portfolio-carousel.html">Projelerimiz</a>
+                            <a href="{{route('home')}}">Anasayfa</a>
+                            <a href="{{route('service.view')}}">Hizmetlerimiz</a>
+                            <a href="{{route('project.view')}}">Projelerimiz</a>
                             <br>
                             <a href="page-about.html">Hakkımızda</a>
-                            <a href="blog.html">Blog</a>
-                            <a href="blog.html">Ekibimiz</a>
-                            <a href="page-contact.html">İletişim</a>
+                            <a href="{{route('blogs.view')}}">Blog</a>
+                            <a href="{{route('teams.view')}}">Ekibimiz</a>
+                            <a href="{{route('contact.view')}}">İletişim</a>
                         </div>
                     </div>
                 </div>

@@ -12,8 +12,9 @@ class BlogController extends Controller
         $blogs = DB::table('blogs')->get();
         return view('blogs.blogs',compact('blogs'));
     }
-      public function edit()
+      public function edit($slug)
     {
-        return view('blogs.blog-detail');
+        $blog = DB::table('blogs')->where('slug',$slug)->first();
+        return view('blogs.blog-detail',compact('blog'));
     }
 }
